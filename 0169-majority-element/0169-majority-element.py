@@ -6,7 +6,7 @@ class Solution(object):
         """
         n = len(nums)
         nums.sort()
-        return nums[(n-1)/2]
+        return (nums[(n-1)/2])
             
             
             
