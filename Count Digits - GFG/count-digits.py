@@ -4,7 +4,7 @@
 class Solution:
     def evenlyDivides (self, N):
         return sum([1 for i in str(N) if int(i)!= 0 and N % int(i) == 0])    
-    
+
 
 
 #{ 
